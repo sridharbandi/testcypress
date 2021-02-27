@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run --spec cypress/integration/specs/checkout.spec.js --browser chrome --record --key 0b051b3b-ab63-4682-a4e4-e56910def1fd",
+    "test": "./node_modules/.bin/cypress run --spec cypress/integration/specs/checkout.spec.js --browser chrome --headless --record --key 0b051b3b-ab63-4682-a4e4-e56910def1fd",
     "cypress:report": "generate-mochawesome-report"
   },
   "keywords": [],

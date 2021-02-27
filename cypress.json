@@ -1,5 +1,5 @@
 {
-  "video":"false",
+  "video": false,
   "testFiles:": "**/*.spec.js",
   "reporter": "cypress-mochawesome-reporter",
   "projectId": "8qasja"
